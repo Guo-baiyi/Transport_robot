@@ -1,7 +1,9 @@
-## Tugger train capable Transport robot
+# Tugger train capable Transport robot
 
-Tugger train capable Transport robot  
-# Consists of 5 components:   
+![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/5a250651-94f5-4513-88d2-539453641b03)
+
+## Consists of 5 components:  
+
 Chassis is a box._250mm*400mm*1150mm  
 left_wheel_直径300mm_宽200mm  
 right_wheel_直径300mm_宽200mm  
