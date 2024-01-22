@@ -27,9 +27,4 @@
 - **base_link** set to be the center of the two drive wheels, and it also the center of the rotation of the robot. so the rest of robot reference to that.  
 ![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/4103c66b-4712-43a0-a28a-90abd90c6734)
 
-![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/1921fc2e-5d6c-47fd-b078-06267bee65be)
 
-![image](https://github.com/Guo-baiyi/guo_baiyi/assets/120784487/255bc9ed-0fd2-4fd2-988f-8641577df210)  
-
-## Technical Parameters：   
-![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/5a250651-94f5-4513-88d2-539453641b03)
