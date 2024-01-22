@@ -1,6 +1,7 @@
 ## Transport robot_Innok INDUROS 
 ![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/4f18bcda-849a-44f2-9942-5beb6532b018) 
 ![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/ff020e82-0ca7-4e5d-ba0f-9048fba51613) 
+<img width="741" alt="image" src="https://github.com/Guo-baiyi/Transport_robot/assets/120784487/9390dbcf-5fad-4cf4-9b62-0eb20556d232">
 
 
 ## Consists of 5 components:  
