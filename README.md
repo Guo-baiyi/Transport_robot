@@ -2,8 +2,8 @@
 - 这个项目是一个使用ROS2（机器人操作系统）制作的小车项目，通过RVIZ系统创建一个两轮小车模型，可以进行平移以及旋转运动，具有手动控制、自动驾驶和提前避障（可选做）的功能。通过使用这些功能，来实现小车在复杂环境下的优化路径运动（指通过选择多点优化成圆角曲线或B-spline曲线，并非只能路径规划），提高工作效率。
 - 1.实现手动控制小车移动（使用键盘或虚拟手柄）
 - 2.实现自动控制小车
-![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/ff020e82-0ca7-4e5d-ba0f-9048fba51613) 
-<img width="741" alt="image" src="https://github.com/Guo-baiyi/Transport_robot/assets/120784487/9390dbcf-5fad-4cf4-9b62-0eb20556d232">
+<img width="1085" alt="1" src="https://github.com/Guo-baiyi/Transport_robot/assets/120784487/280d0966-a3f8-488a-b327-2a7d254fcf70">
+<img width="1089" alt="2" src="https://github.com/Guo-baiyi/Transport_robot/assets/120784487/fbbb74ea-acbb-4e54-88d8-b715b684f8ae">
 
 ## 自动化移动功能  	
 - step1.小车正常可顺滑移动	
