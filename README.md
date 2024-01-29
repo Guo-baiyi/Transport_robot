@@ -1,6 +1,7 @@
 # ROS2 Transport robot_Innok Project
 
 This project is a mobile robot application developed using ROS2. It features a two-wheeled car model created in Rhino and simulated in RVIZ. The robot is capable of performing translation and rotation movements. The primary goal of the project is to achieve optimized path motion for the car in complex environments, enhancing operational efficiency through manual control, autonomous driving, and optionally, advanced obstacle avoidance. 
+![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/677c29e8-766b-44a3-9102-743e71c7293c)
 
 
 ## Table of Contents
