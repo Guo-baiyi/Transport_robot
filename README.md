@@ -1,30 +1,68 @@
-## Transport robot_Innok INDUROS 
-- 这个项目是一个使用ROS2（机器人操作系统）制作的小车项目，通过RVIZ系统创建一个两轮小车模型，可以进行平移以及旋转运动，具有手动控制、自动驾驶和提前避障（可选做）的功能。通过使用这些功能，来实现小车在复杂环境下的优化路径运动（指通过选择多点优化成圆角曲线或B-spline曲线，并非只能路径规划），提高工作效率。
-- 1.实现手动控制小车移动（使用键盘或虚拟手柄）
-- 2.实现自动控制小车
-<img width="1085" alt="1" src="https://github.com/Guo-baiyi/Transport_robot/assets/120784487/280d0966-a3f8-488a-b327-2a7d254fcf70">
+# ROS2 Transport robot_Innok Project
+
+This project is a mobile robot application developed using ROS2. It features a two-wheeled car model created in Rhino and simulated in RVIZ. The robot is capable of performing translation and rotation movements. The primary goal of the project is to achieve optimized path motion for the car in complex environments, enhancing operational efficiency through manual control, autonomous driving, and optionally, advanced obstacle avoidance. 
+
+
+## Table of Contents
+- [Overview](#overview)
+- [Build Instructions](#build-instructions)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+  - [Manual Control](#1-implement-manual-control)
+  - [Autonomous Control](#2-implement-automatic-control)
+
+
+## Overview
+
+The mobile robot in this project is modeled using Rhino and simulated in RVIZ. It is equipped with functions for manual control, autonomous driving, and optional advanced obstacle avoidance. The focus is on achieving optimized path motion in complex environments, allowing the selection of multiple points to optimize into rounded corners or B-spline curves.
+
+## Build Instructions
+
+### Prerequisites
+- Install ROS2: [ROS2 Installation Guide](https://docs.ros.org/en/galactic/Installation.html)
+- Install Rviz2
+
+### Build Steps
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Build the project using the following commands:
+
+```bash
+$ colcon build
+$ source install/setup.bash 
+```
+
+
+## Usage
+
+### 1. Implement Manual Control
+
+To manually control the car's movement using a virtual joystick:
+
+```bash
+$ ros2 launch telema_pkg01 manual_path.py
+$ rviz2
+```
+Drag the right joystick to control the car forward, backward and steering. 
+
+<img width="1085" alt="1" src="https://github.com/Guo-baiyi/Transport_robot/assets/120784487/280d0966-a3f8-488a-b327-2a7d254fcf70"> 
+
+
+### 2. Implement Automatic Control
+
+To enable automatic control for the car:
+
+```bash
+$ ros2 launch automation auto_launch.py
+$ rviz2
+```
 <img width="1089" alt="2" src="https://github.com/Guo-baiyi/Transport_robot/assets/120784487/fbbb74ea-acbb-4e54-88d8-b715b684f8ae">
 
-## 自动化移动功能  	
-- step1.小车正常可顺滑移动	
--	step2.小车读取所选目标点，向目标方位移动	rviz内选择多个坐标点位（转弯点）或选择一个目标点（计算路径）
--	step3.小车publish一个完整路径到rviz	
--	step4.小车路径优化	，通过倒圆角的算法，或b-spline算法，生成移动路径
--	step5.小车车身沿着路径移动到目标点位，车尾对准目标点.	点击按钮已取货，返程
--	step6.小车召回功能（人工装货后，小车沿着原有路径回到起始点）	
-![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/c39a9f33-913f-433a-be29-f9e0d805d5ad)
 
-## Consists of 5 components:  
 
-- **Chassis** is a box._250mm*400mm*1150mm  
-- **left_wheel**_Tire Diameter_300mm_Tire width_200mm  
-- **right_wheel**_Tire Diameter_300mm_Tire width_200mm  
-- **caster_wheel**_Represented by the hemisphere_Tire Diameter_300mm  
-- **shell**_On top of the chassis.
 
-![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/48104e2b-fdca-4692-8ee5-0ac0a42e17a9)
 
-- **base_link** set to be the center of the two drive wheels, and it also the center of the rotation of the robot. so the rest of robot reference to that.  
-![image](https://github.com/Guo-baiyi/Transport_robot/assets/120784487/4103c66b-4712-43a0-a28a-90abd90c6734)
+
+
 
 
